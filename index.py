@@ -1,9 +1,22 @@
-from itertools import count
+from turtle import backward
 
 
-failed_subjects="5"
+failed_subjects="exercise-bacics"
 
-msg = 'Welcome to it\'s Python 101: Strings'
+msg='welcome to Python 101: Strings'
+
+
+# From the string "welcome to Python 101: Strings", extract text and create/ 
+# print a new string that says "1 welcome Ring to Tyler"
+# every first letter should be capitalize
+
+
+
+msg1=msg[18]+' '+msg[:8]+msg[25:29]+msg[7:10]+' '+'Tyler'
+print(msg1)
+print(msg1.title())
+
+
 
 print(msg, msg)
 print(msg.upper())
@@ -31,3 +44,4 @@ print(msg[12 : 33]) # : everything after 12 takes up to 33
 
 # slicing with endpoint
 print(msg[ : 30]) # : everything started from 0 up to 30
+
