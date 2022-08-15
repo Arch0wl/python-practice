@@ -1,14 +1,6 @@
-failed_subjects="4"
+failed_subjects="5"
 
-print("Basic Arithmetic")
+msg = 'Welcome to Python 101: Strings'
 
-a=20
-b=3
+print(msg + msg)
 
-print('Addition : ', a + b)
-print('Substraction : ', a - b)
-print('Multiplication : ', a * b)
-print('Division (float) : ', a / b)
-print('Division (floor) : ', a // b) 
-print('Modulus : ', a % b) #no leftover, this reason 0
-print('Exponent : ', a ** b)
