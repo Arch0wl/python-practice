@@ -1,8 +1,14 @@
-failed_subjects="3"
+failed_subjects="4"
 
-item_name = 'banana'
-price = 1.2
-number = 50 
-is_in_inventory = True
+print("Basic Arithmetic")
 
-print (item_name, price, number)
+a=6
+b=2
+
+print('Addition : ', a + b)
+print('Substraction : ', a - b)
+print('Multiplication : ', a * b)
+print('Division (float) : ', a / b)
+print('Division (floor) : ', a // b) 
+print('Modulus : ', a % b)
+print('Exponent : ', a ** b)
